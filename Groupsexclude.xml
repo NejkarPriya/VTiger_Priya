@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+          <run>
+               <exclude name="smoke"></exclude>
+          </run>
+  </groups>
+    <classes>
+      <class name="TestNG1.Bajaj_Bike_TestNG"/>
+      <class name="TestNG2.Bata_Shoes_TestNg"/>
+      <class name="TestNG2.Puma_Shoes_TestNG"/>
+      <class name="TestNG1.TVS_Bike_TestNG"/>
+      <class name="TestNG2.Woodland_Shoes_TestNg"/>
+      <class name="TestNG1.Yamaha_Bike_TestNG"/>
+      <class name="TestNG2.Adidas_Shoes_TestNG"/>
+      <class name="TestNG2.Relaxo_Shoes_TestNG"/>
+      <class name="TestNG1.Suzuki_Bike_TestNG"/>
+      <class name="TestNG1.Honda_Bike_testNG"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test">
+  <groups>
+          <run>
+               <exclude name="smoke"></exclude>
+          </run>
+  </groups>
+    <classes>
+      <class name="TestNG1.Bajaj_Bike_TestNG"/>
+      <class name="TestNG2.Bata_Shoes_TestNg"/>
+      <class name="TestNG2.Puma_Shoes_TestNG"/>
+      <class name="TestNG1.TVS_Bike_TestNG"/>
+      <class name="TestNG2.Woodland_Shoes_TestNg"/>
+      <class name="TestNG1.Yamaha_Bike_TestNG"/>
+      <class name="TestNG2.Adidas_Shoes_TestNG"/>
+      <class name="TestNG2.Relaxo_Shoes_TestNG"/>
+      <class name="TestNG1.Suzuki_Bike_TestNG"/>
+      <class name="TestNG1.Honda_Bike_testNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
